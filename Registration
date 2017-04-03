@@ -1,0 +1,41 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>
+            Registartion form
+        </title>
+    </head>
+    <body>
+        <h1>Registartion Form</h1>
+        <hr/>
+        <form method="Post" id="frmRegister">
+            <label>Name: </label>
+            <input type="text" id="txtName" required/>
+            <br/><br/>
+            <label>Email: </label>
+            <input type="text" id="txtEmail" required/>
+            <br/><br/>
+            <label>Course </label>
+			  <select id= "dropdown"> 
+                <option value="HTML">HTML<option/>
+                <option value="CSS">Cascading Style Sheets<option/>
+				<option value="JQuery">JQuery<option/>
+                <option value="Javascript">Javascript<option/>
+				<option value="PHP">PHP<option/>
+                <option value="Java">Java<option/>
+				</select>
+            <br/><br/>
+			
+			<label>Joining Date: </label>
+            <input type="date" id="txtDob" required/>
+            <br/><br/>
+			
+			
+			
+			
+            
+            
+            <input type="submit" value="Submit"/> 
+        </form>
+    </body>
+</html>
